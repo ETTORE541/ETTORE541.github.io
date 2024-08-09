@@ -1,0 +1,55 @@
+*{
+    text-align: center;
+}
+
+.header{
+    background-color: rgb(211, 170, 139);
+    padding: 15px;
+}
+
+h1{
+    color: brown;
+}
+
+h2{
+    color: rgb(4, 120, 91);
+}
+
+/* Table */
+
+.table{
+    position: relative;
+    margin: 10px auto;
+    border: 3px solid purple;
+}
+
+thead{
+    background-color: rgb(198, 171, 222);
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.rowhead{
+    background-color: yellow;
+}
+
+.table td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+/* Figure and Figcaption */
+
+.image{
+    position: relative;
+    margin: 30px auto;
+}
+
+figure{
+  padding: 10px;
+  margin-left: 0;
+}
+
+figcaption{
+  font-style: italic;
+}
